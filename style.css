@@ -1,0 +1,157 @@
+:root {
+  /*Primary Colors*/
+  --very-dark-blue: hsl(233, 47%, 7%); /*Main Background*/
+  --dark-desaturated-blue: hsl(244, 38%, 16%); /*card background*/
+  --soft-violet: hsl(277, 52%, 48%); /*Accent*/
+
+  /*Neutral Colors*/
+  --white: hsl(0, 0%, 100%); /*Main heading, stats*/
+  --slightly-transparent-white-p: hsla(0, 0%, 100%, 0.75); /*Main Paragraph*/
+  --slightly-transparent-white-h: hsla(0, 0%, 100%, 0.6); /*Stat Headings*/
+
+  /*font-weights*/
+  --bold: 400;
+  --bolder: 700;
+}
+
+/*
+font-family: 'Inter', sans-serif; 400 & 700
+font-family: 'Lexend Deca', sans-serif; 400
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2em;
+  background-color: hsl(233, 47%, 7%);
+  height: 93%;
+}
+
+.card {
+  text-align: center;
+  max-width: 100%;
+  width: 100%;
+  border-radius: 0px 0px 15px 15px;
+  /* border: 2px solid yellow; */
+  background-color: hsl(244, 38%, 16%);
+}
+
+.heading {
+  text-align: center;
+  font-size: 1.66em;
+  font-weight: 600;
+  color: white;
+  padding: 1.22em;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.text {
+  color: violet;
+}
+
+.main-text {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 0.77em;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  /* border: 2px solid crimson; */
+  margin-top: -20px;
+  font-size: 1.11em;
+}
+
+ul {
+  /* border: 2px solid white; */
+  padding: 1.55em;
+  list-style: none;
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  font-size: 0.77em;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+.img-mobile::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: hsl(244, 38%, 16%);
+  opacity: 0.88;
+}
+
+.number {
+  color: white;
+  font-size: 2em;
+}
+
+.img-mobile {
+  max-width: 100%;
+  width: 100vw;
+  border-radius: 15px 15px 0px 0px;
+}
+
+li {
+  margin-top: 1.88em;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 1.1em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+@media (min-width: 765px) {
+  .main-text,
+  .heading {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+  }
+
+  li + li {
+    margin-left: 10em;
+  }
+  .image-mobile {
+    display: none;
+  }
+
+  body {
+    display: flex;
+    padding: 8em 4em 4em 4em;
+  }
+
+  .card {
+    border-radius: 15px 0px 0px 15px;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-content {
+    padding: 4em;
+  }
+
+  .image-desktop {
+    max-width: 100%;
+    width: 900px;
+    height: 100%;
+  }
+}
+
+@media (max-width: 765px) {
+  .image {
+    display: none;
+  }
+}
