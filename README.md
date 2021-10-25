@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://github.com/Pablo-cyber21/frontend-mentor-challenges/blob/main/stats-preview-card-component-main/stats-preview-card-component-main/Screenshot%202021-10-25%20at%2018-43-22%20Frontend%20Mentor%20Stats%20preview%20card%20component.png)
+![](https://github.com/Pablo-cyber21/stats-card-live-preview/blob/main/Screenshot%202021-10-25%20at%2018-43-22%20Frontend%20Mentor%20Stats%20preview%20card%20component.png)
 
 ### Links
 
