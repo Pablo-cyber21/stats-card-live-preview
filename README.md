@@ -11,9 +11,9 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-- [Author](Asiimawe Rodrick Pablo)
+- [Author](#Author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -58,4 +58,3 @@ How to make elements of a page visible and invisible.
 - Frontend Mentor - [@Pablo-cyber21](https://www.frontendmentor.io/profile/Pblo-cyber21)
 - Instagram - [@pablo_rodrick.dev](https://www.instagram.com/pablo_rodrick.dev/)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
