@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here]( https://pablo-cyber21.github.io/stats-card-live-preview/)
+- Live Site URL: [Live site link]( https://pablo-cyber21.github.io/stats-card-live-preview/)
 
 ## My process
 
